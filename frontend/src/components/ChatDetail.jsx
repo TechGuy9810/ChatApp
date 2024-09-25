@@ -54,7 +54,7 @@ return(
             <img className='w-8 h-8 rounded-sm object-cover' src={`${files[files.length-1-i].file}`}/>
             <span className={`${theme==="light"?"text-slate-500":"text-slate-300"}`}>{files[files.length-1-i]._id}</span>
          </div>
-         <a id={files[files.length-1-i]._id} className='text-none' href={`${files[files.length-1-i].file}`}>
+         <a id={files[files.length-1-i]._id} className='text-none' href={`${files[files.length-1-i].file}`} target="_blank">
             <FontAwesomeIcon icon={faDownload} className='w-3 h-3 rounded-full cursor-pointer p-1 bg-slate-200 text-black'/>
           </a>
         </div>
@@ -82,7 +82,7 @@ return(
             <FontAwesomeIcon icon={faFile} className='cursor-pointer text-black w-10 h-6 rounded-sm object-cover'/>
             <span>{files[files.length-1-i]._id}</span>
          </div>
-         <a id={files[files.length-1-i]._id} className='text-none' href={`${files[files.length-1-i].file}`}>
+         <a id={files[files.length-1-i]._id} className='text-none' href={`${files[files.length-1-i].file}`} target="_blank">
          <FontAwesomeIcon icon={faDownload} className='w-3 h-3 rounded-full cursor-pointer p-1 bg-slate-200 text-black'/>
          </a>
         </div>
