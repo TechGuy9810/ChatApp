@@ -35,7 +35,7 @@ const AddUser = ({closeAddUser}) => {
   }
   return (
     <>
-    {loading?(""):(<>
+   
       <div className='top-0 bottom-0 left-0 right-0 m-auto absolute w-full h-screen flex z-40 bg-slate-500 opacity-55 '></div>
     <div className=' p-4 rounded fixed top-0 bottom-0 left-0 right-0 m-auto lg:w-96 w-80 h-80 lg:h-80 sm:h-max sm:w-max bg-slate-500 gap-2 flex flex-col z-50 opacity-100'>
       <div className='flex items-center justify-end m-0 p-0'><FontAwesomeIcon icon={faXmark} className='size-5 cursor-pointer text-slate-200 font-semibold' onClick={closeAddUser}/></div>
@@ -45,6 +45,7 @@ const AddUser = ({closeAddUser}) => {
                 handleSubmit();
             }}
       onChange={(e)=>setSearch(e.target.value)}/>
+       {loading?(""):(<>
     {friends?(
  <div className='user mt-5 flex items-center justify-between'>
    <div className="detail flex items-center gap-4">
@@ -71,8 +72,8 @@ const AddUser = ({closeAddUser}) => {
         })
       }
       </div>
+            </> )}
   </div>
-   </> )}
     </>
   )
 }
