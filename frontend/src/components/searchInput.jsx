@@ -50,7 +50,7 @@ function SearchInput() {
         }}> <FontAwesomeIcon  icon={faAdd} className='size-5 cursor-pointer text-white'/></button>)
       }
       {add && <AddUser closeAddUser={closeAddUser}/>}
-      <button className="btn btn-sm flex bg-[#4f46e5] hover:bg-[#4139dd]"><FontAwesomeIcon icon={faPeopleGroup} className='size-5 cursor-pointer text-white'/></button>
+      <button className="btn btn-sm flex bg-[#4f46e5] hover:bg-[#4139dd] lg:h-9 md:h-12 h-10"><FontAwesomeIcon icon={faPeopleGroup} className='size-5 cursor-pointer text-white'/></button>
       </div>
   );
 }
