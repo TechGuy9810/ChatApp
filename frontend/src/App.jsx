@@ -19,7 +19,9 @@ function App() {
     <div className='sm:h-screen lg:flex items-center lg:justify-center w-full h-full'>
       {loading?
       (
-      <span className="loading loading-infinity loading-lg"></span>
+      <div className='flex flex-row h-screen w-screen items-center justify-center'>
+        <span className="loading loading-infinity loading-lg"></span>
+      </div>
       ):(<Routes>
         <Route path='/login' element={authUser? <Navigate to="/"/>:<Login/>}/>
         <Route path='/signup' element={authUser? <Navigate to="/"/>:<Signup/>}/>
