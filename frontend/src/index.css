@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    /* background: black; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* dark Mode looking scrollbar */
+::-webkit-scrollbar{
+    cursor: pointer;
+    width: 8px;
+}
+::-webkit-scrollbar-track{
+    cursor: pointer;
+    background:#afafaf;
+}
+::-webkit-scrollbar-thumb{
+    background:#4f46e5;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #3c33e5;
+}
+@media (max-width: 600px) {
+    body{
+        padding: 0;
+    }
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+  }
+  
+  .shake {
+    animation: shake 0.5s ease-in-out; /* Optional: to repeat the animation indefinitely */
+  }
