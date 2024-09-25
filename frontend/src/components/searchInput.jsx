@@ -40,7 +40,7 @@ function SearchInput() {
                 handleSubmit();
             }}
       onChange={(e)=>setSearch(e.target.value)}
-      placeholder='Search . . .' className='w-11/12 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg p-2.5 dark:bg-gray-700 outline-none lg:h-9 md:h-12 h-8'/>
+      placeholder='Search . . .' className='w-11/12 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg p-2.5 outline-none lg:h-9 md:h-12 h-10'/>
       {
         add?(<button className="btn btn-sm flex bg-[#4f46e5] hover:bg-[#4139dd]" onClick={()=>{
           setAdd((prev)=>!prev)
