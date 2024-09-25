@@ -45,7 +45,7 @@ function SearchInput() {
         add?(<button className="btn btn-sm flex bg-[#4f46e5] hover:bg-[#4139dd] lg:h-9 md:h-12 h-10" onClick={()=>{
           setAdd((prev)=>!prev)
           setFriends('')
-        }}> <FontAwesomeIcon icon={faSubtract} className='size-5 cursor-pointer text-white'/></button>):(<button className="btn btn-sm flex bg-[#4f46e5] hover:bg-[#4139dd]" onClick={()=>{
+        }}> <FontAwesomeIcon icon={faSubtract} className='size-5 cursor-pointer text-white'/></button>):(<button className="btn btn-sm flex bg-[#4f46e5] hover:bg-[#4139dd] lg:h-9 md:h-12 h-10" onClick={()=>{
           setAdd((prev)=>!prev)
         }}> <FontAwesomeIcon  icon={faAdd} className='size-5 cursor-pointer text-white'/></button>)
       }
