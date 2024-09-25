@@ -42,12 +42,12 @@ function SearchInput() {
       onChange={(e)=>setSearch(e.target.value)}
       placeholder='Search . . .' className='w-11/12 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg p-2.5 outline-none lg:h-9 md:h-12 h-10'/>
       {
-        add?(<button className="btn btn-sm flex bg-[#4f46e5] hover:bg-[#4139dd]" onClick={()=>{
+        add?(<button className="btn btn-sm flex bg-[#4f46e5] hover:bg-[#4139dd] lg:h-9 md:h-12 h-10" onClick={()=>{
           setAdd((prev)=>!prev)
           setFriends('')
         }}> <FontAwesomeIcon icon={faSubtract} className='size-5 cursor-pointer text-white'/></button>):(<button className="btn btn-sm flex bg-[#4f46e5] hover:bg-[#4139dd]" onClick={()=>{
           setAdd((prev)=>!prev)
-        }}> <FontAwesomeIcon  icon={faAdd} className='size-4 cursor-pointer text-white'/></button>)
+        }}> <FontAwesomeIcon  icon={faAdd} className='size-5 cursor-pointer text-white'/></button>)
       }
       {add && <AddUser closeAddUser={closeAddUser}/>}
       <button className="btn btn-sm flex bg-[#4f46e5] hover:bg-[#4139dd]"><FontAwesomeIcon icon={faPeopleGroup} className='size-5 cursor-pointer text-white'/></button>
