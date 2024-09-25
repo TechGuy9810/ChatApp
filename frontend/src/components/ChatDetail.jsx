@@ -32,7 +32,7 @@ const ChatDetail = () => {
          <p className={`flex font-bold ${theme==="light"?"text-slate-900":"text-white"}`}>{selectedConversation.fullName}</p>
          </div>
          <div className='flex flex-row'>
-         <p className='flex text-slate-400'>Hey there I am using ChatApp</p>
+         <p className='flex text-slate-400'>{selectedConversation.description}</p>
          </div>
       </div>
       <div className='my-0 py-0 h-[1px] bg-slate-200 w-full'></div>
