@@ -20,7 +20,7 @@ function Message(props) {
         <div className={`chat ${chatClassName}`}>
   <div className="chat-image avatar">
     <div className="w-10 rounded-full">
-      <img alt="Tailwind CSS chat bubble component" src={profilePic} />
+      <img alt="Tailwind CSS chat bubble component" src={profilePic===''?'/user.jpg':profilePic} />
     </div>
   </div>
   <div className={`chat-bubble ${bubbleBgColor} ${shakeClass} min-w-auto max-w-auto`}>
