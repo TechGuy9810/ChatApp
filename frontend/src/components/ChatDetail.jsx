@@ -15,7 +15,7 @@ const ChatDetail = () => {
        setHiddenp('hidden');
   },[selectedConversation])
   return (
-    <div className={`${theme==="light"?"bg-white":"bg-slate-800"} z-50 flex flex-col lg:rounded-l-lg lg:rounded-r-lg h-full lg:w-2/5 w-full transition ease-in-out duration-1000 lg:mx-2`}>
+    <div className={`${theme==="light"?"bg-white":"bg-slate-800"} z-50 flex flex-col lg:rounded-l-lg lg:rounded-r-lg h-screen lg:w-2/5 w-full transition ease-in-out duration-1000 lg:mx-2`}>
 {(hideMessageContainer!==""&&window.innerWidth<700)&&
   <div>
     <FontAwesomeIcon icon={faXmark} className='w-5 h-5 text-slate-600 p-3' onClick={()=>{
