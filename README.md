@@ -28,6 +28,11 @@ This is a full-featured **real-time chat application** built using the **MERN** 
   - **Cloudinary** for image storage
 - **Real-time Communication**: **Socket.IO** for seamless real-time chat functionality.
 
+![image](https://github.com/user-attachments/assets/0f3ebbe9-83cd-4c2a-825f-335a479c7dfd)
+![image](https://github.com/user-attachments/assets/198dd8a2-f7e6-451c-89ac-195d9a8fb859)
+![image](https://github.com/user-attachments/assets/bcc8c868-9212-4ed1-b9d3-64a81601d23d)
+![image](https://github.com/user-attachments/assets/42de3331-27da-49e5-af4d-71a5ae9f9206)
+
 ## Installation
 
 1. Clone the repository:
