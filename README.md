@@ -39,19 +39,24 @@ This is a full-featured **real-time chat application** built using the **MERN** 
    ```bash
    git clone https://github.com/your-username/chat-web-app.git
    cd chat-web-app
-# For client
-cd client
+2. Install nodemodules
+## For client
+  ```bash
 npm install
+```
 
-# For server
-cd ../server
+## For server
+   ```bash
 npm i express
-
+```
+3. Place your passkeys
+  ```bash
 MONGO_URI=your_mongo_uri
 CLOUDINARY_API_KEY=your_cloudinary_api_key
 CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 CLOUDINARY_NAME=your_cloudinary_cloud_name
-
+```
+4. Run
 ## In the server directory
 npm start
 
