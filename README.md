@@ -1,3 +1,5 @@
+https://chatapp-18yf.onrender.com/
+
 # Chat Web App (MERN Stack)
 
 This is a full-featured **real-time chat application** built using the **MERN** (MongoDB, Express, React, Node.js) stack. Users can chat with others in real-time, search for users, send messages with **emojis and images**, update profile pictures, and download photos and files.
